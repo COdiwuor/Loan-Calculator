@@ -18,7 +18,7 @@ document.getElementById("loan-form").addEventListener("submit", function(e) {
     const interest = document.getElementById("interest");
     const years = document.getElementById("years");
 
-    console.log(amount, interest, years)
+    console.log(amount, interest, years);
 
     const monthlyPayment = document.getElementById("monthly-payment");
     const totalPayment = document.getElementById("total-payment");
